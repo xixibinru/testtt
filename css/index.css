@@ -112,6 +112,8 @@ p {
     position: relative;
     font-size: 0.26rem;
     /* font-size: 26px; */
+    /* font-size-adjust:  */
+    font-s
 }
 
 .options span::after {
@@ -359,4 +361,5 @@ p {
 .step3 .step-list .txt p {
     /* font-size: 0.14rem; */
     font-size: 0.24rem;
+    font-size-adjust: 0.2;
 }
