@@ -111,9 +111,9 @@ p {
 .options span {
     position: relative;
     font-size: 0.26rem;
-    /* font-size: 26px; */
+    font-size: 16px;
     /* font-size-adjust:  */
-    font-s
+    /* font-s */
 }
 
 .options span::after {
