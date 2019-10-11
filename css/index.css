@@ -294,4 +294,24 @@ p {
     padding: 0.88rem 0;
 }
 
-.step3 .text p:nth-of-type(1) {}
+.step3 .step-list {
+    text-align: center;
+    padding-top: 1rem
+}
+.step3 .step-list img {
+    width: 3.1rem;
+    min-width: 158px;
+}
+.step3 .step-list .txt {
+    margin: 0 auto;
+    width: 3.1rem;
+    min-width: 158px;
+}
+.step3 .step-list .txt h3 {
+    font-size: 0.185rem;
+    font-weight: 700;
+    padding: 0.2rem 0 ;
+}
+.step3 .step-list .txt p {
+    font-size: 0.14rem;
+}
