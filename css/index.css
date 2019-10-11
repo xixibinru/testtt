@@ -381,4 +381,8 @@ p {
     .product1 .text p {
         font-size: 10px;
     }
+
+    .product2 .text3 p {
+        font-size: 8px;
+    }
 }
