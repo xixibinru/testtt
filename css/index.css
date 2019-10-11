@@ -212,60 +212,53 @@ p {
 
 .footer {
     height: 18.75rem;
-    padding: 3.5rem;
+    padding: 0 3.5rem;
     background-image: linear-gradient(to bottom, #eee 17%, #fff 83%);
 }
 
 .planer {
     position: relative;
     height: 7rem;
+    padding-top: 0.9rem;
 }
 
 .planer i {
-    position: absolute;
+    /* position: absolute;
     top: 0.95rem;
-    left: 0.58rem;
+    left: 0.58rem; */
+    display: block;
     width: 0.63rem;
     height: 0.57rem;
     background: url(../images/0322.png) center center no-repeat / 100%
 }
 
-.planer img {
-    position: absolute;
-    width: 4.75rem;
-    right: 0.8rem;
-    top: 1.74rem;
-}
 
-.planer .text1 {
-    position: absolute;
-    top: 2.9rem;
-
-}
-
-.planer .text1 h3 {
-    font-size: 0.36rem;
-
-}
 
 .planer .text1 p {
-    margin: 0 auto;
-    margin-top: 0.4rem;
-    text-align: center;
-    font-size: 0.17rem;
-    font-weight: 700;
-    width: 2.6rem;
-    line-height: 1.1;
-}
-
-.planer .text2 {
-    position: absolute;
-    top: 0.9rem;
-    right: 0;
     text-align: right;
     font-weight: 700;
     font-size: 0.15rem;
 }
+
+.planer .text2 {
+    /* position: absolute;
+    top: 0.9rem;
+    right: 0;
+    text-align: right;
+    font-weight: 700;
+    font-size: 0.15rem; */
+}
+.planer .img-planer {
+    text-align: right;
+    padding-right: 0.6rem
+}
+.planer .img-planer img {
+    /* position: absolute;
+    right: 0.8rem;
+    top: 1.74rem; */
+    width: 4.75rem;
+}
+
 
 .step3 ul {
     width: 4rem;
