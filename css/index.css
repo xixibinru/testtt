@@ -56,10 +56,6 @@ p {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
-    /* position: relative; */
-    /* min-height: 1px; */
-    /* padding-right: 15px;
-    padding-left: 15px; */
     padding: 0;
 }
 
@@ -110,12 +106,12 @@ p {
     height: 0.16rem;
     border-radius: 999rem;
     background-color: #038d82;
-    /* vertical-align: middle */
 }
 
 .options span {
     position: relative;
-    font-size: 0.26rem;
+    /* font-size: 0.26rem; */
+    font-size: 26px;
 }
 
 .options span::after {
@@ -133,7 +129,6 @@ p {
 
 .options img {
     width: 3.56rem;
-    /* height: 4.6rem; */
     min-width: 180px;
     margin-top: 1rem;
     transition: transform 0.4s
@@ -144,7 +139,6 @@ p {
 }
 
 .product {
-    /* padding: 0 4.2rem; */
     text-align: center;
     margin-top: 1rem;
 }
@@ -153,31 +147,23 @@ p {
 .product .product2 {
     position: relative;
     width: calc(100% - 7rem);
-
     margin: 0 auto;
     text-align: left;
 }
 
 .product1 img {
-    /* position: absolute;
-    right: 0;
-    top: 0; */
     float: right;
     width: 4.88rem;
     margin-right: 0.5rem;
 }
 
 .product1 .text {
-    /* position: absolute; */
-    /* float: left; */
-    /* transform: translateY(50%) */
     padding-top: 1.8rem;
-
-    /* top: 1.3rem; */
 }
 
 .product1 .text h3 {
-    font-size: 0.33rem;
+    /* font-size: 0.33rem; */
+    font-size: 33px;
     font-weight: 700;
 }
 
@@ -185,7 +171,8 @@ p {
     margin-top: 0.2rem;
     width: 4rem;
     min-width: 220px;
-    font-size: 0.18rem;
+    /* font-size: 0.18rem; */
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.1;
 }
@@ -241,6 +228,10 @@ p {
     text-align: right;
     margin-top: 1rem;
     line-height: 1.1;
+}
+.product2 .text3 p {
+    /* font-size: 0.17rem; */
+    font-size: 17px;
 }
 
 .footer {
@@ -299,7 +290,6 @@ p {
 
 .planer .img-planer {
     text-align: center;
-    /* padding-right: 0.6rem */
 }
 
 .planer .img-planer img {
@@ -367,5 +357,4 @@ p {
 
 .step3 .step-list .txt p {
     /* font-size: 0.14rem; */
-    /* font-size: 12px; */
 }
