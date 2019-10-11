@@ -117,7 +117,7 @@ p {
 .product .product2 {
     position: relative;
     width: calc(100% - 7rem);
-    min-width: 340px;
+
     margin: 0 auto;
     text-align: left;
 }
