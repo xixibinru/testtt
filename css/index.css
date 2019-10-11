@@ -211,8 +211,9 @@ p {
 }
 
 .footer {
-    height: 18.75rem;
+    /* height: 18.75rem; */
     padding: 0 3.5rem;
+    padding-bottom: 1rem;
     background-image: linear-gradient(to bottom, #eee 17%, #fff 83%);
 }
 
