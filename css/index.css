@@ -160,24 +160,31 @@ p {
     height: 5.88rem;
 }
 
-.product2 img {
-    position: absolute;
-    width: 5.88rem;
-    height: 5.88rem;
-    left: 0.9rem;
-    top: 0;
-}
+
 
 .product2 .text1 {
-    position: absolute;
+    /* position: absolute; */
     font-weight: 700;
-    top: 0.55rem;
+    /* top: 0.55rem; */
+    float: left;
+    margin-top: 0.55rem;
+}
+
+.product2 img {
+    /* position: absolute; */
+    width: 5.88rem;
+    /* height: 5.88rem; */
+    /* left: 0.9rem; */
+    /* top: 0; */
+    float: left;
 }
 
 .product2 .text2 {
-    position: absolute;
+    /* position: absolute;
     right: 0;
-    top: 0.8rem;
+    top: 0.8rem; */
+    /* float: right; */
+    margin-top: 0.8rem;
     text-align: right;
     font-size: 0.45rem;
     font-weight: 700;
@@ -188,12 +195,14 @@ p {
 }
 
 .product2 .text3 {
-    position: absolute;
+    /* position: absolute; */
+    /* float: right; */
     text-align: right;
-    right: 0;
-    top: 3rem;
-    width: 3.7rem;
-    line-height: 0.42rem;
+    /* right: 0; */
+    /* top: 3rem; */
+    margin-top: 1rem;
+    /* width: 3.7rem; */
+    line-height: 0.25rem;
 }
 
 .footer {
@@ -283,5 +292,4 @@ p {
     padding: 0.88rem 0;
 }
 
-.step3 .text p:nth-of-type(1) {
-}
+.step3 .text p:nth-of-type(1) {}
