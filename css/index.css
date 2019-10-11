@@ -110,8 +110,8 @@ p {
 
 .options span {
     position: relative;
-    /* font-size: 0.26rem; */
-    font-size: 26px;
+    font-size: 0.26rem;
+    /* font-size: 26px; */
 }
 
 .options span::after {
@@ -162,8 +162,8 @@ p {
 }
 
 .product1 .text h3 {
-    /* font-size: 0.33rem; */
-    font-size: 33px;
+    font-size: 0.33rem;
+    /* font-size: 33px; */
     font-weight: 700;
 }
 
@@ -171,8 +171,8 @@ p {
     margin-top: 0.2rem;
     width: 4rem;
     min-width: 220px;
-    /* font-size: 0.18rem; */
-    font-size: 18px;
+    font-size: 0.18rem;
+    /* font-size: 18px; */
     font-weight: 700;
     line-height: 1.1;
 }
@@ -230,8 +230,8 @@ p {
     line-height: 1.1;
 }
 .product2 .text3 p {
-    /* font-size: 0.17rem; */
-    font-size: 17px;
+    font-size: 0.17rem;
+    /* font-size: 17px; */
 }
 
 .footer {
@@ -327,7 +327,8 @@ p {
     margin: 0 auto;
     font-weight: 700;
     text-align: center;
-    font-size: 0.17rem;
+    /* font-size: 0.17rem; */
+    font-size: 0.24rem;
     line-height: 1.6;
     padding: 0.88rem 0;
 }
@@ -350,11 +351,12 @@ p {
 
 .step3 .step-list .txt h3 {
     /* font-size: 0.185rem; */
-    font-size: 0.2rem;
+    font-size: 0.3rem;
     font-weight: 700;
     padding: 0.2rem 0;
 }
 
 .step3 .step-list .txt p {
     /* font-size: 0.14rem; */
+    font-size: 0.24rem;
 }
