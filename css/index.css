@@ -164,6 +164,8 @@ p {
 
 .product2 .text1 {
     /* position: absolute; */
+    position: relative;
+    z-index: 1;
     font-weight: 700;
     /* top: 0.55rem; */
     float: left;
