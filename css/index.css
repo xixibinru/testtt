@@ -82,7 +82,14 @@ p {
     font-size: 0.4rem;
     color: #a7a7a7;
 }
-
+.gifts-options::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 1.14rem;
+    height: 0.05rem;
+    background-color: #038d82;
+}
 .options .options-part {
     text-align: center;
     margin-top: 0.5rem;
@@ -241,23 +248,15 @@ p {
 }
 
 .planer .text2 {
-    /* position: absolute;
-    top: 0.9rem;
-    right: 0;
-    text-align: right;
-    font-weight: 700;
-    font-size: 0.15rem; */
     text-align: center;
+    padding-bottom: 0.5rem
 }
 .planer .img-planer {
     text-align: right;
     padding-right: 0.6rem
 }
 .planer .img-planer img {
-    /* position: absolute;
-    right: 0.8rem;
-    top: 1.74rem; */
-    /* width: 4.75rem; */
+
     width: 100%;
     max-width: 475px;
 }
