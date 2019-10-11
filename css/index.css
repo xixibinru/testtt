@@ -1,0 +1,284 @@
+ul,
+li,
+html,
+body,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    /* position: relative; */
+    /* min-height: 1px; */
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    padding: 0;
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.address {
+    line-height: 1.12rem;
+    background-color: #e3e3e3;
+}
+
+.address img {
+    margin: 0 0.5rem;
+}
+
+.address span,
+.address a {
+    font-size: 0.4rem;
+    color: #a7a7a7;
+}
+
+.options .options-part {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.options i {
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 999rem;
+    background-color: #038d82;
+    vertical-align: middle
+}
+
+.options span {
+    font-size: 0.26rem;
+}
+
+.options img {
+    width: 3.56rem;
+    /* height: 4.6rem; */
+    min-width: 180px;
+    margin-top: 1rem;
+}
+
+.product {
+    /* padding: 0 4.2rem; */
+    text-align: center;
+}
+
+.product .product1,
+.product .product2 {
+    position: relative;
+    width: calc(100% - 7rem);
+    min-width: 340px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.product1 img {
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    float: right;
+    width: 4.88rem;
+    margin-right: 0.5rem;
+}
+
+.product1 .text {
+    /* position: absolute; */
+    /* float: left; */
+    /* transform: translateY(50%) */
+    padding-top: 1.8rem;
+
+    /* top: 1.3rem; */
+}
+
+.product1 .text h3 {
+    font-size: 0.33rem;
+    font-weight: 700;
+}
+
+.product1 .text p {
+    margin-top: 0.2rem;
+    width: 4rem;
+    min-width: 220px;
+    font-size: 0.18rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.product .product2 {
+    position: relative;
+    margin-top: 3rem;
+    height: 5.88rem;
+}
+
+.product2 img {
+    position: absolute;
+    width: 5.88rem;
+    height: 5.88rem;
+    left: 0.9rem;
+    top: 0;
+}
+
+.product2 .text1 {
+    position: absolute;
+    font-weight: 700;
+    top: 0.55rem;
+}
+
+.product2 .text2 {
+    position: absolute;
+    right: 0;
+    top: 0.8rem;
+    text-align: right;
+}
+
+.product2 .text2 p {
+    line-height: 1.1;
+}
+
+.product2 .text3 {
+    position: absolute;
+    text-align: right;
+    right: 0;
+    top: 3.2rem;
+    width: 3.7rem;
+}
+
+.footer {
+    height: 18.75rem;
+    padding: 3.5rem;
+    background-image: linear-gradient(to bottom, #eee 17%, #fff 83%);
+}
+
+.planer {
+    position: relative;
+    height: 7rem;
+}
+
+.planer i {
+    position: absolute;
+    top: 0.95rem;
+    left: 0.58rem;
+    width: 0.63rem;
+    height: 0.57rem;
+    background: url(../images/0322.png) center center no-repeat / 100%
+}
+
+.planer img {
+    position: absolute;
+    width: 4.75rem;
+    right: 0.8rem;
+    top: 1.74rem;
+}
+
+.planer .text1 {
+    position: absolute;
+    top: 2.9rem;
+
+}
+
+.planer .text1 h3 {
+    font-size: 0.36rem;
+
+}
+
+.planer .text1 p {
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 0.17rem;
+    font-weight: 700;
+    width: 2.6rem;
+    line-height: 1.1;
+}
+
+.planer .text2 {
+    position: absolute;
+    top: 0.9rem;
+    right: 0;
+    text-align: right;
+    font-weight: 700;
+    font-size: 0.15rem;
+}
+
+.step3 ul {
+    width: 4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.step3 ul li {
+    display: inline-block;
+    width: 0.14rem;
+    height: 0.14rem;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 999px;
+    background-color: #14958a;
+}
+
+.step3 ul li+li {
+    margin-left: 0.22rem;
+}
+
+.step3 .text {
+    width: 6rem;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.17rem;
+    line-height: 1.6;
+    padding: 0.88rem 0;
+}
+
+.step3 .text p:nth-of-type(1) {
+}
