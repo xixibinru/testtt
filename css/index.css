@@ -360,12 +360,12 @@ p {
 
 .step3 .step-list .txt h3 {
     /* font-size: 0.185rem; */
-    font-size: 18px;
+    font-size: 0.2rem;
     font-weight: 700;
     padding: 0.2rem 0;
 }
 
 .step3 .step-list .txt p {
     /* font-size: 0.14rem; */
-    font-size: 12px;
+    /* font-size: 12px; */
 }
