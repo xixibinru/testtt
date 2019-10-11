@@ -218,7 +218,6 @@ p {
 
 .planer {
     position: relative;
-    height: 7rem;
     padding-top: 0.9rem;
 }
 
@@ -262,7 +261,9 @@ p {
     max-width: 475px;
 }
 
-
+.step3 {
+    margin-top: 1.75rem;
+}
 .step3 ul {
     width: 4rem;
     margin: 0 auto;
