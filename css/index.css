@@ -58,7 +58,13 @@ p {
 .col-xs-9 {
     padding: 0;
 }
-
+.header {
+    font-size: 0.27rem;
+    line-height: 1.2rem;
+}
+.header img {
+    width: 3rem;
+}
 .banner img {
     width: 100%;
 
@@ -241,7 +247,7 @@ p {
 
 .product2 .text3 {
     text-align: right;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     line-height: 1.1;
 }
 
@@ -254,6 +260,7 @@ p {
     padding: 0 3rem;
     padding-bottom: 1rem;
     background-image: linear-gradient(to bottom, #eee 0, #fff 17%, #fff 82%);
+    margin-top: 1rem;
 }
 
 .planer {
@@ -318,7 +325,7 @@ p {
 }
 
 .step3 {
-    margin-top: 1.75rem;
+    margin-top: 1.5rem;
 }
 
 .step3 ul {
@@ -383,9 +390,8 @@ p {
 
 
 @media screen and (max-width: 750px) {
-    body {
-        /* background-color:lightblue; */
-
+    .header {
+        font-size: 14px;
     }
 
     .options span {
@@ -410,6 +416,9 @@ p {
     }
     .product2 .text2 {
         font-size: 9px;
+    }
+    .product2 .text3 {
+        margin-top: 0.6rem;
     }
     .product2 .text3 p {
         font-size: 8px;
