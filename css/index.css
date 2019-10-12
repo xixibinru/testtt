@@ -148,7 +148,7 @@ p {
 .product .product1,
 .product .product2 {
     position: relative;
-    width: calc(100% - 7rem);
+    width: calc(100% - 6rem);
     margin: 0 auto;
     text-align: left;
 }
@@ -207,6 +207,11 @@ p {
     background: url(../images/product2.png) center center no-repeat /100%
 }
 
+
+
+
+
+
 .product2 .text2 {
     margin-top: 0.8rem;
     text-align: right;
@@ -246,7 +251,7 @@ p {
 }
 
 .footer {
-    padding: 0 3.5rem;
+    padding: 0 3rem;
     padding-bottom: 1rem;
     background-image: linear-gradient(to bottom, #eee 0, #fff 17%, #fff 82%);
 }
@@ -388,6 +393,17 @@ p {
     }
     .product1 .text p {
         font-size: 10px;
+    }
+
+
+    .product2 .text1 {
+        font-size: 8;
+    }
+    .product2 .text1 p:nth-of-type(3) {
+        line-height: 18;
+    }
+    .product2 .text1 p:nth-of-type(4){
+        font-size: 12px;
     }
     .product2 .text2 {
         font-size: 9px;
