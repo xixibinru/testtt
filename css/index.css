@@ -191,6 +191,14 @@ p {
     font-weight: 700;
     float: left;
     margin-top: 0.55rem;
+    font-size: 0.15rem;
+
+}
+.product2 .text1 p:nth-of-type(3){
+    line-height: 0.5rem
+}
+.product2 .text1 p:nth-of-type(4){
+    font-size: 0.36rem;
 }
 
 .product2 .img {
@@ -381,8 +389,19 @@ p {
     .product1 .text p {
         font-size: 10px;
     }
-
+    .product2 .text2 {
+        font-size: 9px;
+    }
     .product2 .text3 p {
         font-size: 8px;
+    }
+    .step3 .text {
+        font-size: 10px;
+    }
+    .step3 .step-list .txt h3 {
+        font-size: 11;
+    }
+    .step3 .step-list .txt p {
+        font-size: 10;
     }
 }
