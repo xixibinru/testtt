@@ -296,12 +296,15 @@ p {
     text-align: center;
     padding-bottom: 0.5rem
 }
-
+.planer .text2 h3 {
+    font-size: 0.36rem;
+}
 .planer .text2 p {
     width: 60%;
     margin: 0 auto;
     margin-top: 0.34rem;
     font-weight: 700;
+    font-size: 0.17rem;
 }
 
 .planer .img-planer {
@@ -411,6 +414,17 @@ p {
     .product2 .text3 p {
         font-size: 8px;
     }
+    .planer .text1 p {
+        font-size: 10px;
+    }
+    .planer .text2 h3 {
+        font-size: 14px;
+    }
+    .planer .text2 p {
+        font-size: 10px;
+    }
+
+
     .step3 .text {
         font-size: 10px;
     }
