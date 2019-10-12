@@ -391,7 +391,7 @@ p {
 
 @media screen and (max-width: 750px) {
     .header {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
     .options span {
