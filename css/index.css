@@ -175,6 +175,7 @@ p {
     height: 5rem;
     position: relative;
     text-align: center;
+    min-height: 160px;
 }
 .product img {
     position: absolute;
@@ -184,7 +185,7 @@ p {
     right: 0;
     display: block;
     margin:auto;
-
+    min-width: 170px;
 }
 
 .product img.p1 {
@@ -403,13 +404,13 @@ p {
 
 .step3 .step-list img {
     width: 3.1rem;
-    min-width: 180px;
+    min-width: 175px;
 }
 
 .step3 .step-list .txt {
     margin: 0 auto;
     width: 3.1rem;
-    min-width: 180px;
+    min-width: 175px;
 }
 
 .step3 .step-list .txt h3 {
