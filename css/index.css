@@ -204,10 +204,11 @@ p {
 .product .text h3 {
     font-size: 0.33rem;
     font-weight: 700;
+    margin-bottom: 0.2rem;
 }
 
 .product .text p {
-    margin-top: 0.2rem;
+    /* margin-top: 0.2rem; */
     font-size: 0.18rem;
     font-weight: 700;
     line-height: 1.1;
@@ -408,6 +409,7 @@ p {
 }
 
 .step3 .step-list .txt {
+    text-align: left;
     margin: 0 auto;
     width: 3.1rem;
     min-width: 175px;
@@ -489,8 +491,12 @@ p {
 
     .step3 .text {
         font-size: 10px;
+        width: auto;
     }
-
+    .step3 .step-list .txt {
+        width: auto;
+        text-align: center;
+    }
     .step3 .step-list .txt h3 {
         font-size: 11px;
     }
