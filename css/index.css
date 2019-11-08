@@ -6,6 +6,7 @@ h3,
 p {
     padding: 0;
     margin: 0;
+    -webkit-text-size-adjust: none;
 }
 
 .col-lg-1,
@@ -135,57 +136,82 @@ p {
     left: -0.22rem;
 }
 
+.options .options-part-img {
+    margin-top: 1rem;
+    line-height: 5.21rem;
+    text-align: center;
+}
+
+
 .options img {
+    vertical-align: middle;
     width: 3.56rem;
     min-width: 180px;
-    margin-top: 1rem;
+
     transition: transform 0.4s
+}
+
+.options .options-part-img2 {
+    width: 4.03rem;
 }
 
 .options img:hover {
     transform: scale(1.1, 1.1)
 }
 
-.product {
+.product-list {
     text-align: center;
     margin-top: 1rem;
 }
 
-.product .product1,
-.product .product2 {
+.product-list .product {
     position: relative;
-    width: calc(100% - 6rem);
     margin: 0 auto;
     text-align: left;
+    padding: 0 1rem;
+}
+.product .img-wrap {
+    height: 5rem;
+    position: relative;
+    text-align: center;
+}
+.product img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin:auto;
+
 }
 
-.product1 img {
-    float: right;
+.product img.p1 {
     width: 4.88rem;
-    margin-right: 0.5rem;
 }
 
-.product1 .text {
-    padding-top: 1.8rem;
+.product img.p2 {
+    width: 4.75rem;
 }
 
-.product1 .text h3 {
+.product .text {
+    text-align: center;
+    padding-top: 0.2rem;
+}
+
+.product .text h3 {
     font-size: 0.33rem;
-    /* font-size: 33px; */
     font-weight: 700;
 }
 
-.product1 .text p {
+.product .text p {
     margin-top: 0.2rem;
-    width: 4rem;
-    min-width: 220px;
     font-size: 0.18rem;
-    /* font-size: 18px; */
     font-weight: 700;
     line-height: 1.1;
 }
 
-.product .product2 {
+.product-list .product2 {
     position: relative;
     margin-top: 3rem;
     height: 5.88rem;
@@ -340,6 +366,8 @@ p {
     width: 4rem;
     margin: 0 auto;
     text-align: center;
+    line-height: 0.14rem;
+    transform: translateY(-50%)
 }
 
 .step3 ul li {
@@ -405,14 +433,17 @@ p {
         font-size: 14px;
     }
 
-    .product1 .text h3 {
+    .product .text h3 {
         font-size: 14px;
     }
 
-    .product1 .text p {
+    .product .text p {
         font-size: 10px;
     }
 
+    .options-part-img2 {
+        width: 3.56rem;
+    }
 
     .product2 .text1 {
         font-size: 8px;

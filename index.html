@@ -22,68 +22,6 @@
     <![endif]-->
     <link rel="stylesheet" href="./css/index.css">
     <script>
-        // (function (doc, win) {
-        //     var docEl = doc.documentElement,
-        //         isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
-        //         dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
-        //         dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
-        //         dpr = 1,
-        //         scale = 1 / dpr,
-        //         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
-        //     docEl.dataset.dpr = dpr;
-        //     var metaEl = doc.createElement('meta');
-        //     metaEl.name = 'viewport';
-        //     metaEl.content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale;
-        //     docEl.firstElementChild.appendChild(metaEl);
-        //     var recalc = function () {
-        //         var width = docEl.clientWidth;
-        //         if (width / dpr > 1920) {
-        //             width = 1920 * dpr;
-        //         }
-        //         // 乘以100，px : rem = 100 : 1
-        //         docEl.style.fontSize = 100 * (width / 1920) + 'px';
-        //     };
-        //     recalc()
-        //     if (!doc.addEventListener) return;
-        //     win.addEventListener(resizeEvt, recalc, false);
-        // })(document, window);
-
-        // (function (doc, win) {
-
-        //     var isAndroid = win.navigator.appVersion.match(/android/gi);
-        //     var isIPhone = win.navigator.appVersion.match(/iphone/gi);
-
-        //     var scale = 1.0;
-        //     var ratio = 1;
-        //     if (isIPhone) {
-        //         if (window.devicePixelRatio == 2) {
-        //             scale *= 0.5;
-        //             ratio *= 2;
-        //         }
-        //         if (window.devicePixelRatio == 3) {
-        //             scale *= (1 / 3);
-        //             ratio *= 3;
-        //         }
-        //     }
-        //     var text = '<meta name="viewport" content="initial-scale=' + scale + ', maximum-scale=' + scale + ',' + ' minimum-scale=' + scale + ', width=device-width,' + ' user-scalable=no" />';
-        //     document.write(text);
-
-        //     var docEl = doc.documentElement
-        //     var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
-        //     var recalc = function () {
-        //         var clientWidth = docEl.clientWidth
-        //         if (!clientWidth) return
-        //         docEl.style.fontSize = 100 * (clientWidth / 1920) + 'px'
-
-        //         // 解决部分rem特别大的问题
-        //         var docElFontSize = docEl.style.fontSize.replace(/px/gi, '')
-        //         var computedFontSize = win.getComputedStyle(docEl)['font-size'].replace(/px/gi, '')
-        //         docElFontSize != computedFontSize && (docEl.style.fontSize = docElFontSize * docElFontSize / computedFontSize + 'px')
-        //     }
-        //     if (!doc.addEventListener) return
-        //     recalc()
-        //     win.addEventListener(resizeEvt, recalc, false)
-        // })(document, window);
         (function (win, lib) {
             var doc = win.document;
             var docEl = doc.documentElement;
@@ -198,7 +136,6 @@
                 return val;
             }
         })(window, window['lib'] || (window['lib'] = {}));
-
     </script>
 </head>
 
@@ -210,9 +147,6 @@
                 <div class="col-xs-4" style="text-align: center"><img src="images/viewstar_txt.png"></div>
                 <div class="col-xs-4"><span> Get Free VIP Gift from Viewstar</span></div>
             </div>
-
-
-
             <span></span>
         </div>
         <div class="row banner">
@@ -239,13 +173,16 @@
                     style="font-size: 0.422rem;display: inline-block;;vertical-align: middle">Gifts Options</span>
             </div>
         </div>
-        <div class="row options" style="padding: 0 2.7rem">
+        <!-- <div class="row options" style="padding: 0 2.7rem">
             <div class="col-md-4 col-xs-12">
                 <div class="options-part">
                     <div>
                         <span>Neck Travel Pillow</span>
                     </div>
-                    <img src="images/options1.png" alt="">
+                    <div class="options-part-img">
+
+                        <img src="images/options1.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
@@ -253,7 +190,9 @@
                     <div>
                         <span>Neck Travel Pillow</span>
                     </div>
-                    <img src="images/options2.png" alt="">
+                    <div class="options-part-img">
+                        <img class="options-part-img2" src="images/options2.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
@@ -261,21 +200,44 @@
                     <div>
                         <span>Neck Travel Pillow</span>
                     </div>
-                    <img src="images/options3.png" alt="">
+                    <div class="options-part-img">
+
+                        <img src="images/options3.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="product">
-            <div class="product1">
-                <img src="./images/product1.png" alt="">
-                <div class="text">
-                    <h3> 100% Memory Foam Travel Pillow</h3>
-                    <p>Breathable machine-washable cover
-                        Perfect curves shape design
-                        Portable with improved storage bag</p>
+        </div> -->
+        <div class="product-list">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img class="p1" src="./images/product1.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3> 100% Memory Foam Travel Pillow</h3>
+                            <p>Breathable machine-washable cover
+                                Perfect curves shape design
+                                Portable with improved storage bag</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img class="p2" src="./images/planer.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Measures 16.9 x 11.8 inches</h3>
+                            <p>Magnatic stick to fridge Perfect
+                                Paperless Reminder
+                                Easy to Write and Wipe</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="product2 row">
+
+            <!-- <div class="product2 row">
 
                 <div class="text1 col-xs-1">
                     <p>STORAGE</p>
@@ -301,10 +263,10 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
         <div class="footer">
-            <div class="planer">
+            <!-- <div class="planer">
                 <div class="row">
                     <div class="col-xs-4"><i></i></div>
                     <div class="col-xs-4 col-xs-offset-4">
@@ -314,7 +276,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row" style="margin-top: 0.3rem;">
                     <div class="col-xs-12 col-md-6">
                         <div class="text2">
@@ -331,7 +292,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
             <div class="step3">
                 <div class="row">
                     <div class="col-xs-12">
